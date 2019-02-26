@@ -30,10 +30,10 @@ namespace TestContainerApi
             }
             else
             {
-                app.UseHsts();
+                //app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
